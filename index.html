@@ -13,8 +13,8 @@
 
     <header class="container">
 
-      <h1>
-        <a href="index.html">Styles Conference</a>
+      <h1> class="logo">
+        <a href="index.html">Styles <br> Conference</a>
       </h1>
 
       <h3>August 24&ndash;26th &mdash; Chicago, IL</h3>
@@ -66,6 +66,24 @@
           <h5>Venue</h5>
           <h3>The Chicago Theatre</h3>
         </a>
+
+ /*
+  ========================================
+  Clearfix
+  ========================================
+*/
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
         <p>Within the heart of downtown Chicago, The Chicago Theatre will provide a beautiful conference venue.</p>
       </section>
 
