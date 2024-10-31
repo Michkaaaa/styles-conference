@@ -261,10 +261,24 @@ p a {
 
 /*
   ========================================
-  Home
+   Navigation
   ========================================
 */
 
+.nav li {
+  display: inline-block;
+  margin: 0 10px;
+  vertical-align: top;
+}
+.nav li:last-child {
+  margin-right: 0;
+}
+
+/*
+  ========================================
+   Home
+  ========================================
+*/
 .hero {
   color: #fff;
   line-height: 44px;
@@ -281,15 +295,18 @@ p a {
 .teaser a:hover h3 {
   color: #a9b2b9;
 }
-
 /*
   ========================================
-  Navigation
+  Speakers
   ========================================
-*/
-.nav {
-  text-align: right;
+*/  
+.speaker-info {
+  border: 1px solid #dfe2e5;
+  border-radius: 5px;
+  margin-top: 88px;
+  padding: 22px 0;
+  text-align: center;
 }
-
-
-
+.speaker {
+  margin-bottom: 44px;
+}
