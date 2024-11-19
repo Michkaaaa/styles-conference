@@ -114,7 +114,7 @@ body {
 }
 .group {
   clear: both;
-  *zoom: 1;
+  *zoom:1;
 }
 
 /*
@@ -294,6 +294,12 @@ p a {
 }
 .teaser a:hover h3 {
   color: #a9b2b9;
+}
+.teaser img {
+  border-radius: 5px;
+  display: block;
+  margin-bottom: 22px;
+  max-width: 100%
 }
 /*
   ========================================
